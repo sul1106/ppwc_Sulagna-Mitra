@@ -66,7 +66,6 @@ int main() {
     printf("Zero count: %d\n", zero_count);
     printf("Minus sum: %d\n", minus_sum);
     printf("Plus sum: %d\n", plus_sum);
-
     return 0;
 }
 
