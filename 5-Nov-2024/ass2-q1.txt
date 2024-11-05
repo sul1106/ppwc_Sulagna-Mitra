@@ -1,0 +1,19 @@
+ Q1.While the goto statement can be used to control program flow, it’s generally recommended to use
+ selection structures and repetition control structures. What are the advantages of these of over simple
+ goto statement
+ 
+ Answer:
+    Advantages of using selection structures and repetition control structures over the goto statement:
+    
+    1. Readability: Code with selection (if-else) and repetition (for, while) structures is easier to read and understand compared to code with multiple goto statements.
+    
+    2. Maintainability: Structured code is easier to maintain and modify. It is less prone to errors and easier to debug.
+    
+    3. Structured Programming: Selection and repetition structures promote structured programming, which leads to better-organized and modular code.
+    
+    4. Avoiding Spaghetti Code: Excessive use of goto statements can lead to spaghetti code, where the program flow is tangled and difficult to follow. Structured programming avoids this issue.
+    
+    5. Logical Flow: Selection and repetition structures provide a clear and logical flow of control, making it easier to follow the program's logic.
+    
+    6. Error Handling: It is easier to handle errors and exceptions in structured code compared to code with goto statements.
+   
