@@ -1,0 +1,24 @@
+Q4. Under what circumstances should you employ if-else statements, switch statements, or loops?
+What criteria should be evaluated when selecting the appropriate control flow structure
+
+Answer:
+1. If-Else Statements
+Circumstances: Use if-else statements when you need to evaluate conditions that are not mutually exclusive or when the conditions are complex and involve multiple relational or logical operators.
+Criteria:
+->When there are a few conditions to check.
+->When conditions are not based on a single variable.
+->When conditions involve complex expressions.
+
+2. Switch Statements
+Circumstances: Use switch statements (or equivalent structures like match in some languages) when you have multiple conditions based on the value of a single variable. This is more common in languages like C, C++, and Java.
+Criteria:
+->When you have multiple discrete values to check.
+->When the conditions are based on a single variable.
+->When you want a cleaner and more readable alternative to multiple if-else statements.
+
+3. Loops
+Circumstances: Use loops when you need to repeat a block of code multiple times. This can be for a fixed number of iterations (for loop) or until a condition is met (while loop).
+Criteria:
+->When you need to iterate over a range of values or a collection.
+->When you need to execute a block of code repeatedly until a condition is met.
+->When you need to perform operations on each element of a collection or array.

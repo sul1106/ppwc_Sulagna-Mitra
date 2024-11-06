@@ -1,0 +1,51 @@
+Q3.Describe the functions of break and continue statements within loops. Illustrate their applications in various programming contexts.
+
+Answer:
+break Statement
+The break statement is used to terminate the execution of the nearest enclosing loop (for, while, or do-while) or switch statement. When a break statement is encountered, the control immediately exits the loop or switch block and continues with the next statement following the loop or switch.
+
+continue Statement
+The continue statement is used to skip the remaining code inside the current iteration of the loop and proceed with the next iteration of the loop. In a for loop, it causes the increment/decrement step to be executed, and in a while or do-while loop, it causes the condition to be evaluated again.
+
+Example of continue in a while loop
+#include <stdio.h>
+
+int main() {
+    int i = 0;
+    while (i < 10) {
+        if (i == 5) {
+            break;
+        }
+        printf("%d\n", i);
+        i++;
+    }
+    return 0;
+}
+
+Output:
+0
+1
+2
+3
+4
+
+Example of break in a while loop
+#include <stdio.h>
+
+int main() {
+    int i = 0;
+    while (i < 10) {
+        i++;
+        if (i % 2 == 0) {
+            continue;
+        }
+        printf("%d\n", i);
+    }
+    return 0;
+}
+Output:
+1
+3
+5
+7
+9
